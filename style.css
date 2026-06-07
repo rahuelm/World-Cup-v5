@@ -1,0 +1,27 @@
+
+body{margin:0;font-family:Arial,sans-serif;background:#06294d;color:white}
+.hero{
+height:320px;
+background:url("Should've Gone to Specsavers Football Pitch.JPG") center/cover;
+position:relative;
+}
+.overlay{
+background:rgba(0,0,0,.55);
+height:100%;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+}
+.logo{width:160px;border-radius:16px}
+.controls{text-align:center;padding:20px}
+textarea{width:340px;height:200px}
+button{padding:10px 14px;margin:4px}
+#meta{text-align:center;font-weight:bold}
+#results{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:15px;padding:20px}
+.card{background:white;color:black;border-radius:16px;padding:15px;display:none}
+.card.show{display:block}
+.footer{text-align:center;padding:20px}
+.footer img{max-width:500px;width:90%;border-radius:16px}
+.team{padding:3px 0}
